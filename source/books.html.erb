@@ -1,0 +1,10 @@
+<div class="container" id="books">
+  <div class="row">
+    <h1>Our students' favorites books</h1>
+    <% data.books.each do |book| %>
+      <%= image_tag book.image, class: "img-responsive" %>
+            <h2><%= book.title %></h2>
+            <p><%= book.price %></p>
+      </div>
+    <% end %>
+  </div>

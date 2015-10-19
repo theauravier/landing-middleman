@@ -1,10 +1,97 @@
----
-title: Le Wagon Middleman boilerplate
----
+<!-- Banner -->
+    <div class="banner text-center" style="background-image: url('https://unsplash.it/1000/400?image=0')">
+      <div class="banner-shadow"></div>
+      <div class="banner-content">
+        <h1>Startup tools</h1>
+        <p>Very cool stuff, useful and smart</p>
+        <a class="btn btn-primary">GET IT</a>
+      </div>
+    </div>
 
-<div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+    <!-- Cards -->
+    <div class="padded-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h3><i class="fa fa-comment fa-green"></i> Discuss best tools </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
+          </div>
+          <div class="col-sm-3">
+            <h3><i class="fa fa-mobile fa-blue"></i> Always in sync </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
+          </div>
+          <div class="col-sm-3">
+            <h3><i class="fa fa-search fa-purple"></i> Powerful search</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
+          </div>
+          <div class="col-sm-3">
+            <h3><i class="fa fa-heart-o fa-red"></i> Share the love </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="padded-container">
+      <h2 class="text-center">Most Popular</h2>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-sm-4">
+            <div class="card">
+              <span class="card-bg" style="background-image: url('https://unsplash.it/500/200?image=0')"></span>
+              <span class="card-shadow"></span>
+              <span class="card-description">Popular</span>
+              <span class="card-text">
+                <h2>Trello</h2>
+                <p>Very cool stuff, useful and smart</p>
+              </span>
+              <span class="card-user">
+                <img src='http://placehold.it/40x40' class="avatar avatar-bordered"/>
+              </span>
+              <a href="#" class="card-link"></a>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <span class="card-bg" style="background-image: url('https://unsplash.it/500/200?image=1')"></span>
+              <span class="card-shadow"></span>
+              <span class="card-description">Popular</span>
+              <span class="card-text">
+                <h2>Github</h2>
+                <p>Very cool stuff, useful and smart</p>
+              </span>
+              <span class="card-user">
+                <img src='http://placehold.it/40x40' class="avatar avatar-bordered"/>
+              </span>
+              <a href="#" class="card-link"></a>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <span class="card-bg" style="background-image: url('https://unsplash.it/500/200?image=2')"></span>
+              <span class="card-shadow"></span>
+              <span class="card-description">Popular</span>
+              <span class="card-text">
+                <h2>Heroku</h2>
+                <p>Very cool stuff, useful and smart</p>
+              </span>
+              <span class="card-user">
+                <img src='http://placehold.it/40x40' class="avatar avatar-bordered"/>
+              </span>
+              <a href="#" class="card-link"></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+ <%= partial 'newsletter' %>
+
+
+
+
